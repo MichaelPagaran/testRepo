@@ -25,15 +25,17 @@ namespace WindowsFormsApp1 {
         /// </summary>
         private void InitializeComponent() {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
@@ -44,27 +46,16 @@ namespace WindowsFormsApp1 {
             this.panel1.Size = new System.Drawing.Size(200, 555);
             this.panel1.TabIndex = 0;
             // 
-            // button1
+            // button4
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(58)))), ((int)(((byte)(108)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(27, 55);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(140, 53);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Button";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(58)))), ((int)(((byte)(108)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(27, 114);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(140, 53);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Button";
-            this.button2.UseVisualStyleBackColor = false;
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(58)))), ((int)(((byte)(108)))));
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Location = new System.Drawing.Point(27, 232);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(140, 53);
+            this.button4.TabIndex = 4;
+            this.button4.Text = "Button";
+            this.button4.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
@@ -77,16 +68,38 @@ namespace WindowsFormsApp1 {
             this.button3.Text = "Button";
             this.button3.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // button2
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(58)))), ((int)(((byte)(108)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(27, 232);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(140, 53);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Button";
-            this.button4.UseVisualStyleBackColor = false;
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(58)))), ((int)(((byte)(108)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(27, 114);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(140, 53);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "Button";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(58)))), ((int)(((byte)(108)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(27, 55);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(140, 53);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Button";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(58)))), ((int)(((byte)(108)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Location = new System.Drawing.Point(27, 291);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(140, 53);
+            this.button5.TabIndex = 5;
+            this.button5.Text = "Button";
+            this.button5.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -110,6 +123,7 @@ namespace WindowsFormsApp1 {
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button5;
     }
 }
 
